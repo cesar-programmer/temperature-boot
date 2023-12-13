@@ -1,4 +1,4 @@
-const isLoggedIn = false
+const isLoggedIn = true
 const currentUser = 'ColususKing'
 const userSubscriptionType = 'plus'
 const preferredGenres = ['RPG', 'Sports', 'Fighting']
