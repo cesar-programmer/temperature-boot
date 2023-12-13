@@ -17,7 +17,7 @@ console.log('multiplication: ' + (num * num2))
 console.log('division: ' + (num / num2))
 console.log(`subtraction: ${num - num2}`)
 
-const assignmentName = 'Class 1 - Assingment 1'
+const assignmentName = 'Class 1 - Assignment 1'
 const description = 'Assignments are due the day Session 3 is held by 11:59 p.m. (in the time zone in which each student resides). Assignments represent 20% of the overall course grade.'
 const pointsAs1 = 6.66
 const pointsAs2 = 6.66
