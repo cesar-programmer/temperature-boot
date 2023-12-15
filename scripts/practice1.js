@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 console.log('Hello world')
 console.table({ name: 'John Doe', age: 30 })
 
