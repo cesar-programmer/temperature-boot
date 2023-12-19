@@ -1,0 +1,46 @@
+body{
+  font-family: Arial;
+}
+
+
+/*header*/
+
+.site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#notifications{
+  font-size: 18px;
+}
+
+
+/*login*/
+
+.login{
+  background-color: gray;
+  height: 200px;
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.login input{
+  display: block;
+  margin: 20px;
+  width: 80%;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.login button{
+  display: block;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  width: 120px;
+  cursor: pointer;
+}
