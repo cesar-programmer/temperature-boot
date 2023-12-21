@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/assignment4.css">
+  <title>Temperature Conversion</title>
+</head>
+<body>
+  <div class="clouds">🌤️ ⛅ 🌤️</div>
+  <h1>Convert Celsius to Fahrenheit</h1>
+
+  <div class="container">
+    <div id="thermometer">
+      <div id="temperatureLevel"></div>
+    </div>
+
+    <form id="tempForm">
+      <label for="celsius">Enter temperature in Celsius or Fahrenheit:</label>
+      <select id="temperatureScale">
+        <option value="c">Celsius</option>
+        <option value="f">Fahrenheit</option>
+      </select>
+      <label for="celsius">Enter a range of temperature to convert</label>
+      <input type="number" id="temperatureInput" placeholder="Celsius to Fahrenheit to start">
+      <input type="number" id="temperatureInput2" placeholder="Celsius to Fahrenheit to end">
+      <button type="button" onclick="convertTemperature()">Convert</button>
+    </form>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="./scripts/assignment4.js">
+
+  </script>
+</body>
+</html>

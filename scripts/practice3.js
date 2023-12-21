@@ -42,3 +42,25 @@ function addName () {
   const names = document.getElementById('names').value
   document.getElementById('show').innerHTML += `<li>${names}</li>`
 }
+
+const listNuumbers = document.getElementById('list-numbers')
+for (let i = 0; i <= 10; i++) {
+  listNuumbers.innerHTML += `<li>${i}</li>`
+}
+
+const numes2 = document.getElementById('list-numbers-reverse')
+for (let i = 10; i >= 0; i--) {
+  numes2.innerHTML += `<li>${i}</li>`
+}
+
+const numes3 = document.getElementById('evenNumbers')
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 == 0) {
+    numes3.innerHTML += `<li>${i}</li>`
+  }
+}
+
+const numes4 = document.getElementById('multipliTable')
+for (let i = 1; i <= 100; i++) {
+  numes4.innerHTML += `<li>${i} = ${i * 5}</li>`
+}
